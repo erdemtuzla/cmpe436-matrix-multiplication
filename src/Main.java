@@ -25,6 +25,6 @@ public class Main {
         // Read Matrix-2
         matrix2 = FileReader.readNumberFromFile(args[1]);
 
-
+        List<List<Integer>> resultMatrix = MatrixMultiplicator.multiplication(matrix1, matrix2);
     }
 }
