@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class FileReader {
+public class MatrixReader {
     public static List<List<Integer>> readNumberFromFile(String filename) {
         // Create a 2D list to store the matrix
         List<List<Integer>> numbers = new ArrayList<>();
@@ -62,7 +62,7 @@ public class FileReader {
                     for (int j = 0; j < colCount; j++) {
                         currentRow.add(Integer.parseInt(nums[j]));
                     }
-                    
+
                     numbers.add(currentRow);
                 }
 

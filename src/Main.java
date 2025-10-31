@@ -21,10 +21,12 @@ public class Main {
 
         // Read input files
         // Read Matrix-1
-        matrix1 = FileReader.readNumberFromFile(args[0]);
+        matrix1 = MatrixReader.readNumberFromFile(args[0]);
         // Read Matrix-2
-        matrix2 = FileReader.readNumberFromFile(args[1]);
+        matrix2 = MatrixReader.readNumberFromFile(args[1]);
 
         List<List<Integer>> resultMatrix = MatrixMultiplicator.multiplication(matrix1, matrix2);
+
+        MatrixWriter.writeMatrixToFile(resultMatrix, args[2]);
     }
 }
