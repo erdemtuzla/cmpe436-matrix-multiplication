@@ -1,6 +1,10 @@
+// Erdem Tuzla
+// 2024700114
+// erdem.tuzla@std.bogazici.edu.tr
+// CMPE436-Assignment 1 - Question 1
+
 import java.util.ArrayList;
 import java.util.List;
-
 import utility.*;
 
 public class Main {
